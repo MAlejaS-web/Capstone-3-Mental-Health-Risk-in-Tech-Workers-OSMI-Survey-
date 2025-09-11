@@ -1,8 +1,0 @@
-{
-  "prefix": "disclosure",
-  "model_name": "LogReg",
-  "cv_roc_auc": 0.6652096051256667,
-  "test_roc_auc": 0.7006479758773337,
-  "saved_at": "20250910-154947",
-  "model_path": "models/disclosure_LogReg_20250910-154947.joblib"
-}
