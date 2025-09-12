@@ -157,7 +157,7 @@ Longitudinal studies to measure disclosure trends over time
 
 Build real-time HR dashboards for proactive intervention
 
-10. Credits
+# Credits
 
 Dataset: Tech Worker Mental Health Survey (post-pandemic)
 
