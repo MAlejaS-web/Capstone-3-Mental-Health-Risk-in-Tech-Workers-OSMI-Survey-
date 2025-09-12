@@ -1,6 +1,12 @@
 <img width="1536" height="1024" alt="ChatGPT Image Sep 10, 2025, 04_57_22 PM" src="https://github.com/user-attachments/assets/20bb75a8-b873-4d16-8975-a03ee7b8983f" />
 
-1. Data
+# Mental Health Risk in Tech Workers Post-Pandemic
+
+The COVID-19 pandemic dramatically shifted workplace culture, with remote work and rising mental-health challenges impacting the global tech workforce. Disclosure of mental-health conditions at work remains a critical issue: while many employees experience stigma, companies struggle to build cultures that encourage openness and provide adequate support.
+
+In this project, I aim to analyze post-pandemic survey data of tech workers to predict disclosure likelihood and identify employee personas that can guide HR and People Ops teams in creating safer, more supportive workplaces.
+
+# Data
 
 The dataset comes from a post-pandemic mental health in tech survey (~1,259 responses after cleaning).
 
@@ -17,7 +23,7 @@ survey.csv
 
 survey_clean.csv (cleaned dataset created during wrangling)
 
-2. Method
+# Method
 
 Three main approaches were explored in this project:
 
@@ -43,7 +49,7 @@ Segmented employees into 3–5 personas (e.g., “High stigma, low support” vs
 
 Personas linked directly to actionable HR interventions.
 
-3. Data Cleaning
+# Data Cleaning
 
 Following the Springboard Data Wrangling rubric:
 
@@ -67,7 +73,7 @@ Cleaned dataset: survey_clean.csv
 
 Documented in Wrangling Notebook
 
-4. EDA
+# EDA
 
 The following relationships were key:
 
@@ -80,7 +86,7 @@ Stigma index – strongest negative correlation with disclosure
 (See EDA Notebook
  for details.)
 
-5. Algorithms & Machine Learning
+# Algorithms & Machine Learning
 
 I implemented a Pipeline using scikit-learn’s ColumnTransformer:
 
@@ -103,7 +109,7 @@ Key predictors: stigma_index, leave policy, anonymity
 (See Modeling Notebook
 .)
 
-6. Personas
+# Personas
 
 Employee clusters revealed distinct profiles:
 
@@ -115,7 +121,7 @@ Low stigma, high support → most likely to disclose safely
 
 These personas provide a practical framework for HR segmentation and tailored programs.
 
-7. Business Insights
+# Business Insights
 
 Policy clarity matters: well-defined mental-health leave policies raise disclosure likelihood.
 
@@ -133,7 +139,7 @@ Strengthen mental-health benefits portfolio
 
 Monitor progress with dashboards
 
-8. Deliverables
+# Deliverables
 
 Jupyter notebooks: Wrangling, EDA, Modeling
 
@@ -143,7 +149,7 @@ Tableau/PostHog dashboards (interactive HR exploration)
 
 GitHub repo with README + model card
 
-9. Future Improvements
+#Future Improvements
 
 Expand dataset (include HRIS and benefits usage data)
 
